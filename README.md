@@ -34,3 +34,11 @@ After launching **Step 0**, in the second terminal:
 # Launch Karto Mapping
 roslaunch me5413_world mapping_karto.launch
 ```
+
+After finishing mapping, run the following command in the thrid terminal to save the map:
+
+```bash
+# Save the map as `my_map` in the `maps/` folder
+roscd me5413_world/maps/
+rosrun map_server map_saver -f my_map map:=/map
+```
