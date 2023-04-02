@@ -16,3 +16,21 @@ catkin_make
 # Source 
 source devel/setup.bash
 ```
+## Usage
+
+### 0. Gazebo World
+
+This command will launch the gazebo with the project world
+
+```bash
+# Launch Gazebo World together with our robot
+roslaunch me5413_world world.launch
+```
+### 1. Mapping
+
+After launching **Step 0**, in the second terminal:
+
+```bash
+# Launch 
+roslaunch me5413_world mapping.launch
+```
