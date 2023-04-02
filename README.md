@@ -31,6 +31,6 @@ roslaunch me5413_world world.launch
 After launching **Step 0**, in the second terminal:
 
 ```bash
-# Launch 
-roslaunch me5413_world mapping.launch
+# Launch Karto Mapping
+roslaunch me5413_world mapping_karto.launch
 ```
