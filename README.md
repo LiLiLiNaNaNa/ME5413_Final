@@ -42,3 +42,33 @@ After finishing mapping, run the following command in the thrid terminal to save
 roscd me5413_world/maps/
 rosrun map_server map_saver -f my_map map:=/map
 ```
+
+### 2. Navigation
+
+Once completed **Step 1** mapping and saved your map, quit the mapping process.
+
+Then, in the second terminal:
+
+```bash
+roslaunch me5413_world teb_hybridastar_nav.launch
+```
+
+or
+
+```bash
+roslaunch me5413_world navigation.launch
+```
+
+or
+
+```bash
+roslaunch me5413_world navigation_teb_loc.launch
+```
+
+or
+
+```bash
+roslaunch me5413_world navigation_hybridastar.launch
+```
+
+You can check the introductions to these navigation algorithms and results in our report.
