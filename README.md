@@ -72,3 +72,7 @@ roslaunch me5413_world navigation_hybridastar.launch
 ```
 
 You can check the introductions to these navigation algorithms and results in our report.
+
+## Evaluation
+
+Run the evaluation program in the Analysis folder.
