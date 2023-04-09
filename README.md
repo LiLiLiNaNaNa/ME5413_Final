@@ -50,12 +50,14 @@ Once completed **Step 1** mapping and saved your map, quit the mapping process.
 Then, in the second terminal:
 
 ```bash
+# Use TEB local path planer and Hybrid A Star global path planer
 roslaunch me5413_world teb_hybridastar_nav.launch
 ```
 
 or
 
 ```bash
+# Use original navigation algorithm
 roslaunch me5413_world navigation.launch
 ```
 
