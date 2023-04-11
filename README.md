@@ -64,12 +64,14 @@ roslaunch me5413_world navigation.launch
 or
 
 ```bash
+# Use TEB with original Dijkstra
 roslaunch me5413_world navigation_teb_loc.launch
 ```
 
 or
 
 ```bash
+# Use original DWA with Hybrid A Star
 roslaunch me5413_world navigation_hybridastar.launch
 ```
 
